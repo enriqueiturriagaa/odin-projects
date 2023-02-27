@@ -21,7 +21,7 @@
                 <img src="logo.png" alt="logo" class="logo">
                 <p class="logo-text">Odin</p>
             </div>
-            <p class="bottom-flush">Mini-Project from Odin Academy by <a href="https://dev.enrique.zone"
+            <p class="bottom-flush">Mini-Project for Odin Academy by <a href="https://dev.enrique.zone"
                     target="_blank">dev.enrique.zone</a></p>
 
         </div>
@@ -31,25 +31,43 @@
             <!-- top -->
             <div class="right-top">
                 <p>Mauris tempor, odio id ullamcorper accumsan, dui est accumsan nisl, nec sollicitudin quam libero vel
-                    mauris. Nam vel quam et nulla scelerisque eleifend. Nam commodo, libero sed iaculis lobortis, urna
-                    eros feugiat lacus, dictum dapibus dui quam eu leo. </p>
+                    mauris. </p>
             </div>
 
             <!-- Form -->
             <div class="form-wrapper">
-                <p class="heading-gen">Let's do this!</p>
                 <form>
-                    <label class="label" for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                    <label class="label" for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
-                    <label class="label" for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    <p class="heading-gen">Let's do this!</p>
+                    <div class="form-flex">
+                        <fieldset class="fieldset">
+                            <label class="label" for="name">First Name</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your name" required> <br />
+                            <label class="label" for="email" type="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            <br />
+                            <label class="label" for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password"
+                                required>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <label class="label" for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Enter your name"
+                                required><br />
+                            <label class="label" for="phone" type="phone">Phone Number</label>
+                            <input type="email" name="phone" id="phone" placeholder="Enter your email" required><br />
+                            <label class="label" for="password">Confirm Password</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password"
+                                required>
+                        </fieldset>
+                    </div>
+                    <button class="btn">Create Account</button>
                 </form>
             </div>
 
             <!-- Bottom -->
-            <div></div>
+            <div class="bottom">
+                <p>Already have an account? <a>Sign In!</a></p>
+            </div>
         </div>
     </div>
 </body>
